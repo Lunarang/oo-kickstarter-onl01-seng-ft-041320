@@ -4,7 +4,7 @@ class Project
   @@all = []
   
   def initialize (title)
-    @name = title
+    @title = title
     @backers = []
     @@all << self 
   end
